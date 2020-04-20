@@ -24,9 +24,12 @@ public class Main {
 
 		List<String> words = new FileIO().readFromFile(fileName);
 
+		
+//		Solution-1 
 //		Map<String, Set<String>> setOf = getMultiMapSet(words);
 //		printIfSet(setOf, 3);
 		
+//		Solution-2		
 		Map<String, Set<String>> setOf1 = getMultiMapTreeSet(words);
 		printIfSet2(setOf1, 3);
 
